@@ -1,0 +1,11 @@
+id = "arduino"
+name = "Arduino"
+schema_version = 1
+version = "1.0.0"
+authors = ["ytrytio"]
+description = "Arduino language support."
+repository = "https://github.com/ytrytio/arduino"
+
+[grammars.arduino]
+repository = "https://github.com/tree-sitter-grammars/tree-sitter-arduino"
+rev = "master"

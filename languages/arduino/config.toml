@@ -1,0 +1,46 @@
+name = "Arduino"
+grammar = "arduino"
+path_suffixes = ["ino", "pde"]
+line_comments = ["// "]
+
+[[brackets]]
+start = "("
+end = ")"
+close = true
+newline = false
+
+[[brackets]]
+start = '"'
+end = '"'
+close = true
+newline = false
+
+[[brackets]]
+start = "'"
+end = "'"
+close = true
+newline = false
+
+[[brackets]]
+start = "["
+end = "]"
+close = true
+newline = false
+
+[[brackets]]
+start = "{"
+end = "}"
+close = true
+newline = false
+
+[[brackets]]
+start = "<"
+end = ">"
+close = true
+newline = false
+
+[[brackets]]
+start = "/*"
+end = "*/"
+close = true
+newline = false

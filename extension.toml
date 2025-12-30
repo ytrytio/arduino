@@ -1,11 +1,15 @@
 id = "arduino"
 name = "Arduino"
 schema_version = 1
-version = "1.0.0"
+version = "2.5.6"
 authors = ["ytrytio"]
-description = "Arduino language support."
+description = "Arduino support."
 repository = "https://github.com/ytrytio/arduino"
 
 [grammars.arduino]
 repository = "https://github.com/tree-sitter-grammars/tree-sitter-arduino"
 rev = "master"
+
+[language_servers.arduino-language-server]
+name = "Arduino Language Server"
+languages = ["Arduino"]

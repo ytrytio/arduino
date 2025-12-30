@@ -1,7 +1,11 @@
 name = "Arduino"
 grammar = "arduino"
-path_suffixes = ["ino", "pde"]
+path_suffixes = ["ino"]
 line_comments = ["// "]
+block_comment = ["/*", "*/"]
+
+[indent_guides]
+enabled = true
 
 [[brackets]]
 start = "("
@@ -30,12 +34,6 @@ newline = false
 [[brackets]]
 start = "{"
 end = "}"
-close = true
-newline = false
-
-[[brackets]]
-start = "<"
-end = ">"
 close = true
 newline = false
 

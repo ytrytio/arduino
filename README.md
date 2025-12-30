@@ -1,2 +1,3 @@
 # arduino
-Arduino language support for Zed
+
+Arduino language support for [Zed](https://github.com/zed-industries/zed).
